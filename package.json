@@ -10,7 +10,7 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "4.21.2",
-    "https-proxy-agent": "^5.0.0",  // 注意这里有个逗号
+    "https-proxy-agent": "^5.0.0",
     "morgan": "^1.10.0",
     "protobufjs": "^7.4.0",
     "uuid": "11.0.5"
