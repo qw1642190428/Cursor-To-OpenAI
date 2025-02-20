@@ -10,7 +10,7 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "4.21.2",
-    "https-proxy-agent": "^5.0.0"
+    "https-proxy-agent": "^5.0.0",  // 注意这里有个逗号
     "morgan": "^1.10.0",
     "protobufjs": "^7.4.0",
     "uuid": "11.0.5"
@@ -18,10 +18,8 @@
   "scripts": {
     "proto": "npx pbjs -t static-module -w commonjs -o src/proto/message.js src/proto/message.proto",
     "start": "node src/app.js"
-
   },
   "devDependencies": {
     "protobufjs-cli": "^1.1.3"
   }
-
 }
